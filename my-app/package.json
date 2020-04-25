@@ -1,0 +1,18 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start-env": "comit-scripts start-env",
+    "force-clean-env": "comit-scripts force-clean-env"
+  },
+  "dependencies": {
+    "comit-sdk": "^0.15.2"
+  },
+  "devDependencies": {
+    "comit-scripts": "^0.8.3",
+    "dotenv": "^8.1.0"
+  }
+}

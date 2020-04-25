@@ -1,0 +1,37 @@
+{
+    "name": "btc-eth-demo",
+    "version": "1.0.0",
+    "description": "A Hello World COMIT example app that does a Bitcoin-Ether swap",
+    "main": "./src/index.ts",
+    "scripts": {
+        "check": "tsc && tslint -p . && prettier --check '**/*.{ts,json,yml}'",
+        "swap": "ts-node ./src/index.ts",
+        "fix": "tslint -p . --fix && prettier --write '**/*.{ts,js,json,yml}'",
+        "start-env": "comit-scripts start-env",
+        "clean-env": "comit-scripts force-clean-env"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^13.11.0",
+        "@types/readline-sync": "^1.4.3",
+        "comit-scripts": "^0.8.3",
+        "jest": "^25.3.0",
+        "prettier": "^2.0.4",
+        "ts-node": "^8.8.2",
+        "tslint": "^6.1.1",
+        "tslint-config-prettier": "^1.18.0",
+        "typescript": "^3.8.3"
+    },
+    "dependencies": {
+        "comit-sdk": "0.15.2",
+        "dotenv": "^8.2.0",
+        "moment": "^2.24.0",
+        "satoshi-bitcoin-ts": "^0.2.4"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4
+    }
+}

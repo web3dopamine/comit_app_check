@@ -31,7 +31,7 @@
     "prettier": "^2.0.1"
   },
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "targz": "^1.0.1"
   }
 }
